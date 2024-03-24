@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="GitHub Rapo Metadata Generator" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>GitHub Rapo Metadata Generator</title>
+    </head>
+    <body class="dark">
+        <header>
+            <h1>GitHub Rapo Metadata Generator</h1>
+        </header>
+        <div id="container">
+            <input type="text" id="repoInput" placeholder="Enter GitHub Repo Link" />
+            <button id="generateBtn">Generate Metadata</button>
+        </div>
+        <div id="imageContainer">
+            <img id="imagePreview" src="https://opengraph.githubassets.com/g25ekhv9qxguxfhv6omsxt345p4o5cyt/AshutoshGoswami24/Movies-Suggestion" alt="Preview Image" />
+            <div id="imageActions">
+                <button class="btn" id="copyImgBtn">Copy Image Link</button>
+                <button class="btn" id="openImgBtn">Open Image</button>
+            </div>
+        </div>
+        <div>
+            <textarea id="codeEditor" readonly> </textarea>
+
+            <button id="copyButton">Copy Coad</button>
+        </div>
+        <footer>
+            <p>&copy; 2024 GitHub Rapo Metadata Generator by AshutoshGoswami24</p>
+        </footer>
+    </body>
+</html>

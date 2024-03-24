@@ -1,0 +1,120 @@
+  body {
+                font-family: "Arial", sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            .light {
+                background-color: #f4f4f4;
+                color: #333;
+            }
+
+            .dark {
+                background-color: #1e1e1e;
+                color: #ffffff;
+            }
+
+            header {
+                background-color: #333;
+                color: #ffffff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            #container {
+                width: 80%;
+                margin: 20px auto;
+                text-align: center;
+            }
+            #codeEditor {
+                width: 100%;
+                height: 300px;
+                padding: 10px;
+                font-family: monospace;
+                border: none;
+                outline: none;
+                resize: none;
+                color: #f4f4f4;
+                background-color: #1e1e1e00;
+            }
+
+            #repoInput {
+                width: 60%;
+                padding: 10px;
+                margin-right: 10px;
+            }
+
+            #generateBtn {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #ffffff;
+                border: none;
+                cursor: pointer;
+            }
+
+            #imageContainer {
+                width: 80%;
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            #imagePreview {
+                max-width: 300px;
+                height: auto;
+                margin-bottom: 20px;
+                box-shadow: 0 0 10px rgb(255, 255, 255); /* Initial glow effect */
+                transition: box-shadow 0.5s ease; /* Slow transition speed */
+            }
+
+            #imagePreview:hover {
+                box-shadow: 0 0 40px rgb(255, 255, 255); /* Enhanced glow effect on hover */
+            }
+
+            #imageActions {
+                margin-top: 20px;
+                text-align: center; /* Center align the buttons */
+            }
+
+            .btn {
+                padding: 10px 20px;
+                margin: 0 10px; /* Add margin around the buttons */
+                background-color: #007bff; /* Blue background color */
+                color: #ffffff; /* White text color */
+                border: none;
+                cursor: pointer;
+                border-radius: 4px; /* Rounded corners */
+                transition: background-color 0.3s ease; /* Smooth color transition */
+            }
+
+            .btn:hover {
+                background-color: #0056b3; /* Darker blue background color on hover */
+            }
+
+            .btn {
+                padding: 10px 20px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            footer {
+                background-color: #333;
+                color: #ffffff;
+                text-align: center;
+                padding: 10px 0;
+                bottom: 0;
+                width: 100%;
+            }
+            #copyButton {
+                width: 100%;
+                padding: 10px 20px;
+                background-color: #007bff; /* Blue background color */
+                color: #ffffff; /* White text color */
+                border: none;
+                cursor: pointer;
+                border-radius: 4px; /* Rounded corners */
+                transition: background-color 0.3s ease; /* Smooth color transition */
+            }
+
+            #copyButton:hover {
+                background-color: #0056b3; /* Darker blue background color on hover */
+            }
